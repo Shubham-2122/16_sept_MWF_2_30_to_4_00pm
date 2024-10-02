@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>From data</legend>
+            <div>
+                <label for="">Username :- </label>
+                <!-- pattern [] -->
+                <!-- <input type="text" pattern="[a-zA-Z0-9]+" placeholder="Enter your Username" required> -->
+                <!-- []{limited} -->
+                <input type="text" pattern="[a-zA-Z0-9]{3,8}" placeholder="Enter your Username" required>
+            </div>
+            <div>
+                <label for="">Mobile number :-</label>
+                <!-- <input type="text" pattern="[0-9]+" placeholder="Enter your number" required> -->
+                <input type="text" pattern="[0-9]{10}" maxlength="10" placeholder="Enter your number" required>
+            </div>
+            <div>
+                <label for="">Quntiy</label>
+                <input type="number" min="1" max="6" required>
+            </div>
+            <div>
+                <label for="">Email</label>
+                <!-- abc.tops12@gmail.com -->
+                 <!-- [a-z0-9.]+@+[a-z]+.+[a-z]{2,3} -->
+                <input type="email" placeholder="Enter your Email" required>
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" pattern="[a-zA-z0-9]{8,12}" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

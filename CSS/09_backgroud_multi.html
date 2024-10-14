@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 400px;
+            /* css error */
+            /* background-color: red,blue; */
+            background:linear-gradient(red,blue,green,orange);
+            background:linear-gradient(to bottom,red,blue,green,orange);
+            background:linear-gradient(to top,red,blue,green,orange);
+            background:linear-gradient(to left,red,blue,green,orange);
+            background:linear-gradient(to right,red,blue,green,orange);
+            background:linear-gradient(to bottom,red 20%,blue,green,orange);
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(196, 33, 33, 0.3));
+        }
+        .main2{
+            height: 400px;
+            background: rebeccapurple;
+            background: radial-gradient(red,green,orange);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    </div>
+
+    <div class="main2">
+        
+    </div>
+</body>
+</html>

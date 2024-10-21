@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:first-child{
+            background-color: lightcoral;
+        }
+        ul li:last-child{
+            background-color: aqua;
+        }
+        ul li:nth-child(3){
+            background-color: red;
+        }
+        ul li:nth-last-child(2){
+            background-color: blue;
+        }
+        ul li:nth-child(odd){
+            background-color: lightgreen;
+        }
+        ul li:nth-child(even){
+            background-color: red;
+        }
+        .main{
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+            transition: 1s;
+        }
+        /*  */
+        .main:hover{
+            background-color: red;
+            border-radius: 50%;
+            transform: translate(50px,50px);
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- : => pesudo class  -->
+    <!-- :: => pesudo element -->
+
+    <ul>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+    </ul>
+
+    <div class="main">
+
+    </div>
+</body>
+</html>

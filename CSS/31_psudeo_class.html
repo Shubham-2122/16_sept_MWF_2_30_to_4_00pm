@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        /* current, chalid */
         ul li:first-child{
             background-color: lightcoral;
         }
@@ -30,11 +32,22 @@
             transition: 1s;
         }
         /*  */
+
         .main:hover{
             background-color: red;
             border-radius: 50%;
             transform: translate(50px,50px);
             
+        }
+        input{
+            margin: 10px;
+            border: none;
+        }
+        input:focus{
+            /* border: 2px solid red; */
+            outline: 5px solid red;
+            color: red;
+            background-color: blue;
         }
     </style>
 </head>
@@ -57,5 +70,7 @@
     <div class="main">
 
     </div>
+
+    <input type="text" placeholder="enter name">
 </body>
 </html>

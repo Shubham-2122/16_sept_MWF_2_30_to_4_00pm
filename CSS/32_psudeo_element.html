@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* :: creted */
+        ul li::first-letter {
+            background-color: blue;
+        }
+        div::first-line{
+            background-color: aqua;
+        }
+        div::selection{
+            background-color: lightcoral;
+            color: white;
+        }
+        ul li::before{
+            content: "Tsa";
+            height: 200px;
+            width: 200px;
+        }
+        ul li::after{
+            content: "b";
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+
+    </ul>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem iusto praesentium magni, voluptate
+        blanditiis, aspernatur minus molestiae beatae soluta neque, repudiandae est excepturi sunt repellat ducimus
+        dicta officiis quaerat! Voluptates! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, voluptas
+        sequi iusto perferendis reprehenderit fuga velit recusandae voluptatum qui. Quod asperiores alias eveniet
+        corporis iusto, illum ipsam aperiam nulla vitae. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Dolorum sequi accusantium voluptatem nobis, illum blanditiis, odit nam exercitationem nemo esse ullam magnam
+        asperiores voluptates laborum culpa nisi sint eligendi sit.
+    </div>
+</body>
+
+</html>
